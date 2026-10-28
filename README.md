@@ -35,7 +35,7 @@ Apply the migration files of the created app to the database
 Execute Django admin using localhost and create details for 10 entries
 
 ## PROGRAM
-from django.db import models
+```from django.db import models
 from django.contrib import admin 
 class blinkit(models.Model):
     Product_name=models.CharField(max_length=20)
@@ -46,7 +46,7 @@ class blinkit(models.Model):
     Rating=models.IntegerField()
     Feedback=models.TextField()
 class blinkitAdmin(admin.ModelAdmin):
-    list_display=["Product_name","Address","Email_Id","Mobile_number","Availability","Rating","Feedback"]
+    list_display=["Product_name","Address","Email_Id","Mobile_number","Availability","Rating","Feedback"]```
 
 ## OUTPUT
    <img width="1920" height="1080" alt="Screenshot (9)" src="https://github.com/user-attachments/assets/f582d8b6-fd2f-4127-a400-97dc6fdc24de" />
