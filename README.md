@@ -46,9 +46,12 @@ class blinkit(models.Model):
     Rating=models.IntegerField()
     Feedback=models.TextField()
 class blinkitAdmin(admin.ModelAdmin):
-    list_display=["Product_name","Address","Email_Id","Mobile_number","Availability","Rating","Feedback"]```
+    list_display=["Product_name","Address","Email_Id","Mobile_number","Availability","Rating","Feedback"]
+```
 
 ## OUTPUT
    <img width="1920" height="1080" alt="Screenshot (9)" src="https://github.com/user-attachments/assets/f582d8b6-fd2f-4127-a400-97dc6fdc24de" />
 ## RESULT
 Thus the program for creating Online Food Delivery Database using ORM hass been executed successfully
+
+
